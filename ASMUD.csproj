@@ -46,14 +46,42 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Forms\AdminClient.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Forms\AdminClient.Designer.cs">
+      <DependentUpon>AdminClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AutorizeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AutorizeForm.Designer.cs">
+      <DependentUpon>AutorizeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SQL\DBConnector.cs" />
+    <Compile Include="SQL\SQLQueries.cs" />
+    <Compile Include="TechAnalysisDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TechAnalysisDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UserClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\UserClient.Designer.cs">
+      <DependentUpon>UserClient.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\AdminClient.resx">
+      <DependentUpon>AdminClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AutorizeForm.resx">
+      <DependentUpon>AutorizeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UserClient.resx">
+      <DependentUpon>UserClient.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -72,6 +100,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="TechAnalysisDataSet.xsc">
+      <DependentUpon>TechAnalysisDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="TechAnalysisDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TechAnalysisDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TechAnalysisDataSet.xss">
+      <DependentUpon>TechAnalysisDataSet.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
