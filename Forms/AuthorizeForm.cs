@@ -3,9 +3,9 @@ using System.Windows.Forms;
 
 namespace ASMUD
 {
-    public partial class AutorizeForm : Form
+    public partial class AuthorizeForm : Form
     {
-        public AutorizeForm()
+        public AuthorizeForm()
         {
             InitializeComponent();
         }

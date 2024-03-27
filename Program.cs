@@ -17,7 +17,7 @@ namespace ASMUD
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new AdminClient());
+            Application.Run(new AuthorizeForm());
         }
     }
 }

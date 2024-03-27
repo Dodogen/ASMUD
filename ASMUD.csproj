@@ -52,11 +52,11 @@
     <Compile Include="Forms\AdminClient.Designer.cs">
       <DependentUpon>AdminClient.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\AutorizeForm.cs">
+    <Compile Include="Forms\AuthorizeForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\AutorizeForm.Designer.cs">
-      <DependentUpon>AutorizeForm.cs</DependentUpon>
+    <Compile Include="Forms\AuthorizeForm.Designer.cs">
+      <DependentUpon>AuthorizeForm.cs</DependentUpon>
     </Compile>
     <Compile Include="SQL\DBConnector.cs" />
     <Compile Include="SQL\SQLQueries.cs" />
@@ -76,8 +76,8 @@
     <EmbeddedResource Include="Forms\AdminClient.resx">
       <DependentUpon>AdminClient.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\AutorizeForm.resx">
-      <DependentUpon>AutorizeForm.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\AuthorizeForm.resx">
+      <DependentUpon>AuthorizeForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\UserClient.resx">
       <DependentUpon>UserClient.cs</DependentUpon>

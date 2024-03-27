@@ -1,6 +1,6 @@
 ﻿namespace ASMUD
 {
-    partial class AutorizeForm
+    partial class AuthorizeForm
     {
         /// <summary>
         /// Required designer variable.
